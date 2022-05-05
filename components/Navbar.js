@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div className="nav_menu">
         <ul className="nav_ul">
-          <li className='li'>
+          <li className="li">
             <a>What you{`'`}ll learn</a>
           </li>
         </ul>
@@ -19,7 +19,9 @@ const Navbar = () => {
       <div className="mobile_menu">
         <div className="mobile_menu_icon">
           {/* <i className="fas fa-bars">menu</i> */}
-          <a className="mobile_apply">apply now</a>
+          <Link href="/apply">
+            <a className="mobile_apply">apply now</a>
+          </Link>
         </div>
       </div>
     </nav>
