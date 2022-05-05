@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Select from 'react-select';
-import MailchimpSubscribe from 'react-mailchimp-subscribe';
 import axios from 'axios';
 
 const Form = ({ status, message, onValidated }) => {

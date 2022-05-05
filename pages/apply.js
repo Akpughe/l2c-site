@@ -1,21 +1,8 @@
 import React from 'react';
-import Navbar from '../components/navbar';
-import Select from 'react-select';
+import Navbar from '../components/Navbar';
 import Form from '../components/Form';
-import MailChimpForm from '../components/MailChimpForm';
 
 const Apply = () => {
-  const options = [
-    { value: 'software development', label: 'Software Development' },
-    { value: 'data science', label: 'Data Science' },
-    { value: 'ui/ux design', label: 'UI/UX Design' },
-  ];
-
-  const onFormSubmit = (e) => {
-    e.preventDefault();
-    console.log('submitted');
-  };
-
   return (
     <>
       <Navbar />
@@ -42,8 +29,7 @@ const Apply = () => {
         </div>
         <div className="apply_form">
           <h2>First, let’s get some basic info.</h2>
-          {/* <Form /> */}
-          <MailChimpForm/>
+          <Form />
         </div>
       </div>
     </>
