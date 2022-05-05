@@ -118,7 +118,7 @@ export default function Home() {
 
       <section className="feature-section">
         <div className="service_head">
-          <h1>What you'll learn</h1>
+          <h1>What you{`'`}ll learn</h1>
           <p>
             Our course content. A small overview into the wide digital world.
             Find all the details in our courses page

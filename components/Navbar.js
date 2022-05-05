@@ -11,21 +11,15 @@ const Navbar = () => {
       </div>
       <div className="nav_menu">
         <ul className="nav_ul">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
+          <li className='li'>
+            <a>What you{`'`}ll learn</a>
           </li>
         </ul>
       </div>
       <div className="mobile_menu">
         <div className="mobile_menu_icon">
           {/* <i className="fas fa-bars">menu</i> */}
-          <a className='mobile_apply'>apply now</a>
+          <a className="mobile_apply">apply now</a>
         </div>
       </div>
     </nav>
